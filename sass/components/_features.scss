@@ -1,0 +1,49 @@
+/* Feature list */
+
+.feature-list,
+.service-list,
+.team-list,
+.client-list {
+    display: flex;
+}
+
+.feature-list .item{
+    width: 270px;
+}
+
+.feature-list:last-child,
+.service-list .item:last-child,
+.team-list .item:last-child,
+.client-list .item:last-child
+{
+      margin-right: 0px;
+}
+
+.feature-box {
+    padding-top: 25px;
+    text-align: center;
+    width: 270px;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.feature-list .title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
