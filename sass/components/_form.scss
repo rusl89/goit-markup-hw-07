@@ -117,7 +117,7 @@ textarea:focus {
     text-decoration: underline;
     color: $accent;   
 
-     a:visited {
+     &:visited {
         color: $accent;
     }
 }
