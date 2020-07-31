@@ -8,14 +8,14 @@
 
     a {
         text-decoration: none;
-        color: var(--primary-text-color);
+        color: $primaryTextColor;
     }
     .text {
         margin-top: 0;
         margin-bottom: 0;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.87;
+        line-height: 30px;
     }
 
     .description {
@@ -31,10 +31,10 @@
     
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-        color: var(--primary-white);
+        color: $primaryWhite;
         font-weight: 400;
         font-size: 18px;
-        line-height: 1.55; 
+        line-height: 28px; 
     }
 
 }
@@ -43,12 +43,12 @@
     margin-top: 0;
     margin-bottom: 4px;
     
-    color: var(--title-text-color);
+    color: $titleTextColor;
 
     font-weight: 700;
     font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06;
+    line-height: 36px;
+    letter-spacing: 0.06em;
 }
 
 .work-element {
@@ -60,11 +60,11 @@
     border: solid 1px #EEEEEE;
 
     &:nth-child(3n){
-        margin-right: 0px;
+        margin-right: 0;
     }
     
     &:hover {
-        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.06), 0 1px 1px rgba(0, 0, 0, 0.12);
     }
 
 }

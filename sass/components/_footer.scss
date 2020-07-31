@@ -14,26 +14,26 @@
 /* Logo */
 
 .address-footer .logo {
-    color: var(--primary-white);
+    color: $primaryWhite;
 }
 
 /* address */
 .address {
-    color: var(--primary-white);
+    color: $primaryWhite;
     margin-top: 8px;
     font-style: normal;
-    line-height: 1.46;
+    line-height: 24px;
 
     & .link:hover, 
     & .link:focus {
-    color: var(--accent);
+    color: $accent;
 }
 
 }
 .address-footer .link {
     display: block;
     text-decoration: none;
-    color: var(--primary-text-color);
+    color: $primaryTextColor;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -46,10 +46,10 @@ footer {
     
     .title {
 
-        color: var(--primary-white);
+        color: $primaryWhite;
         font-weight: 700;
         font-size: 14px;
-        line-height: 1.14;
+        line-height: 16px;
         text-transform: uppercase;
     }
 
@@ -66,14 +66,14 @@ footer {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    fill: var(--primary-white);
+    fill: $primaryWhite;
     background-color: rgba(255, 255, 255, 0.1);
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover,
     &:focus {
-        background-color: var(--accent);
+        background-color: $accent;
     }
 }
 
@@ -87,7 +87,7 @@ footer {
     height: 50px;
     padding: 16px 15px;
     margin-right: 12px;
-    color: var(--primary-white);
+    color: $primaryWhite;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: #2F303A;
@@ -104,7 +104,7 @@ footer {
 
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height: 24px;
     text-align: center;
 
     padding-top: 18px;

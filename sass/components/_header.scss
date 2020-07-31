@@ -26,18 +26,18 @@
 }
 
 .site-nav .link {
-    color: var(--title-text-color);
+    color: $titleTextColor;
  
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 
 }
 .site-nav .link.current {
-    color: var(--accent);
+    color: $accent;
     position: relative;
     padding-bottom: 28px;
 }
@@ -51,7 +51,7 @@
     display: block;
     width: 100%;
     height: 4px;
-    background-color: var(--accent);
+    background-color: $accent;
     border-radius: 2px;
 }
 
@@ -64,12 +64,12 @@
     align-items: center;
     text-decoration: none;
     
-    color: var(--primary-text-color);
+    color: $primaryTextColor;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -83,6 +83,6 @@
 
 .link:hover,
 .link:focus {
-    color: var(--accent);
-    fill: var(--accent)
+    color: $accent;
+    fill: $accent
 }

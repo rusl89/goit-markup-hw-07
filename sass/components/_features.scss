@@ -16,7 +16,7 @@
 .team-list .item:last-child,
 .client-list .item:last-child
 {
-      margin-right: 0px;
+      margin-right: 0;
 }
 
 .feature-box {
@@ -32,10 +32,10 @@
 .feature-list .title {
     margin-top: 0;
     margin-bottom: 10px;
-    color: var(--title-text-color);
+    color: $titleTextColor;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 16px;
     text-transform: uppercase;
 }
 
@@ -44,6 +44,6 @@
     margin-bottom: 0;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 24px;
 }
 

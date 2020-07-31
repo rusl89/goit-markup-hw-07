@@ -15,16 +15,16 @@ html {
 }
 
 body {
-    background-color: var(--primary-white);
-    color: var(--primary-text-color);
+    background-color: $primaryWhite;
+    color: $primaryTextColor;
 
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
 }
 
 footer {
     width: 100%;
-    // min-height: 300px;
+    
 }
 
 ul {
@@ -81,11 +81,11 @@ a {
 // Sections Headers
 
 .section-title {
-    color: var(--title-text-color);
+    color: $titleTextColor;
 
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: 42px;
     text-align: center;
 }
 

@@ -7,25 +7,25 @@
 .form input{
     padding: 11px 16px;   
     padding-left: 42px;
-    color: var(--primary-text-color);
-    border: 1px solid var(--primary-text-color);
+    color: $primaryTextColor;
+    border: 1px solid $primaryTextColor;
     border-radius: 4px;
 }
 
 .form textarea {
     
-    color: var(--primary-text-color);
-    border: 1px solid var(--primary-text-color);
+    color: $primaryTextColor;
+    border: 1px solid var$primaryTextColor;
     border-radius: 4px;
 }
 
 .form-field:focus-within input {
-    border-color: var(--accent);
+    border-color: $accent;
     outline:none;
 }
 
 textarea:focus {
-    border: 1px solid var(--accent);
+    border: 1px solid $accent;
 }
 
 .form-field {
@@ -48,7 +48,7 @@ textarea:focus {
 
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
-    color: var(--accent);
+    color: $accent;
     transform: translate(-30px ,-40px);
 
 }
@@ -62,7 +62,7 @@ textarea:focus {
 }
 
 .form-field:focus-within > .icon {
-    fill: var(--accent);
+    fill: $accent;
 }
 
 .form-comment {
@@ -82,7 +82,7 @@ textarea:focus {
 
 .form-comment:focus + .comment-label,
 .form-comment:not(:placeholder-shown) + .comment-label{
-    color: var(--accent);
+    color: $accent;
     transform: translate(-4px,-48px);
 }
 
@@ -108,17 +108,17 @@ textarea:focus {
 
 .checkbox:checked ~ .checkbox-label::before {
     border-color: transparent;
-    background-color: var(--accent);
+    background-color: $accent;
     background-image: url(../images/sign.svg);
     background-size: contain;
     background-origin: border-box;
 }
 .form-checkbox a {
     text-decoration: underline;
-    color: var(--accent);   
+    color: $accent;   
 
-    & a:visited {
-        color: var(--accent);
+     a:visited {
+        color: $accent;
     }
 }
 
